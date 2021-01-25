@@ -1,0 +1,28 @@
+.Item {
+	list-style: none;
+	min-height: 350px;
+	border: 2px solid #24282f;
+	overflow: hidden;
+	border-radius: 1rem;
+	background-color: #24282f;
+	color: white;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.Item:hover {
+	transform: scale(1.01);
+	box-shadow: 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Item__title {
+	margin: 2rem 0;
+}
+
+.Item__image {
+	width: 100%;
+}
+
+.Item__image img {
+	width: 100%;
+}

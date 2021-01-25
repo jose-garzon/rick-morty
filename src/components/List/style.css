@@ -1,0 +1,40 @@
+.List {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	padding: 0 8rem;
+	gap: 8rem;
+}
+
+.List__button--next {
+	grid-column: 4 / span 2;
+	margin-bottom: 2rem;
+	padding: 1rem;
+	border: none;
+	border-radius: 0.5rem;
+	color: white;
+	font-size: 2rem;
+	background-color: #24282f;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.List__button--next:hover {
+	box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.List__button--prev {
+	grid-column: 1 / span 2;
+	margin-bottom: 2rem;
+	padding: 1rem;
+	border: none;
+	border-radius: 0.5rem;
+	color: white;
+	font-size: 2rem;
+	background-color: #24282f;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.List__button--prev:hover {
+	box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
+}
